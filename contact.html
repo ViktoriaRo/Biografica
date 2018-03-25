@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="shortcut icon" type="image/x-icon" href="style/images/favicon.png" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/color/red.css" media="all" />
+<link rel="stylesheet" type="text/css" media="screen" href="style/css/prettyPhoto.css"  />
+<link rel="stylesheet" type="text/css" href="style/type/museo.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/type/ptsans.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/type/charis.css" media="all" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="style/css/ie7.css" media="all" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="style/css/ie8.css" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="style/css/ie9.css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="style/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="style/js/transify.js"></script>
+<script type="text/javascript" src="style/js/twitter.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="style/js/jquery.superbgimage.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.slickforms.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.forms').dcSlickForms();
+});
+</script>
+</head>
+<body>
+<!-- Fullscreen backgrounds -->
+<div id="thumbs">
+  <a href="style/images/art/bg1.jpg">1</a> 
+  <a href="style/images/art/bg2.jpg">1</a> 
+  <a href="style/images/art/bg3.jpg">1</a> 
+  <a href="style/images/art/bg4.jpg">1</a> 
+  <a href="style/images/art/bg5.jpg">1</a> 
+  <a href="style/images/art/bg6.jpg">1</a> 
+</div>
+<div id="superbgimage">
+  <div class="scanlines"></div>
+</div>
+<!-- End Fullscreen backgrounds --> 
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div id="header">
+    <div class="logo opacity"><a href="index.html"><img src="style/images/logo.png" alt="left" /><h2>Pagina Principală</h2></a></div>
+    <div class="social">
+      <ul>
+        <li><a href="https://www.facebook.com/cioroi.ecaterina"><img src="style/images/icon-facebook.png" alt="Facebook" /></a></li>
+        <li><a href="http://www.twitter.com"><img src="style/images/icon-twitter.png" alt="Twitter" /></a></li>
+        <li><a href="https://plus.google.com/u/0/getstarted/profile?fww=1&continue=https://plus.google.com/u/0/me"><img src="style/images/icon-googleplus.png" alt="Google+" /></a></li>
+
+        
+        <audio controls autoplay>
+
+  <source src="1.mp3" type="audio/mpeg">
+  
+</audio>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
+  
+  
+  <!-- Meniul :D -->
+  <div id="menu" class="menu opacity">
+    
+      
+      <ul>
+      <li><a href="index.html">Principală</a></li>
+         <li><a href="univers.html" class="active">Lucrare 1</a>
+      	<ul>
+      
+      	</ul>
+      </li>
+      	
+      </li>
+      <li><a href="galerie.html">Galerie foto</a>
+        <ul>
+        	<li><a href="galerie.html">Galerie</a></li>
+      	 
+        </ul>
+      </li>
+      <li>
+        <ul>
+      	  <li><a href="post.html">Blog Post</a></li>
+        </ul>
+      </li>
+      <li><a href="despremine.html">Despre mine</a>
+        <ul>
+      	  <li><a href="despremine.html">Caracterizare</a></li>
+      	  <li><a href="studiu.html">Obiecte de studiu preferate</a></li>
+        </ul>
+      </li>
+      <li><a href="tabel.html">Tabele de note</a>
+      	
+      </li>
+      
+      <li><a href="http://sarbatoriledeiarna.blogspot.md/">Stilul iernii</a>
+        <ul>
+      	  <li><a href="http://sarbatoriledeiarna.blogspot.md/">Stilul iernii</a></li>
+      	  
+        </ul>
+      </li>
+      
+      
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <br style="clear: left" />
+  </div>
+  <!-- End Menu --> 
+  
+  <!-- Begin Container -->
+  <div id="container" class="opacity">
+    <div class="content">
+      <h2>Contactează-mă</h2>
+      <p>Pentru a păstra legătura îmi poți transmite un email, eu vă voi răspunde cu plăcere!</p>
+      <br />
+      <br />
+      <br />
+      <div class="form-container">
+        <form class="forms" action="contact/form-handler.php" method="post">
+          <fieldset>
+            <ol>
+              <li class="form-row text-input-row">
+                <label>Nume*</label>
+                <input type="text" name="name" value="" class="text-input required" title="" />
+              </li>
+              <li class="form-row text-input-row">
+                <label>Email*</label>
+                <input type="text" name="email" value="" class="text-input required email" title="" />
+              </li>
+              <li class="form-row text-area-row">
+                <label>Mesaj*</label>
+                <textarea name="message" class="text-area required"></textarea>
+              </li>
+              <li class="form-row hidden-row">
+                <input type="hidden" name="hidden" value="" />
+              </li>
+              <li class="button-row">
+                <input type="submit" value="Trimite" name="submit" class="btn-submit" />
+              </li>
+            </ol>
+            <input type="hidden" name="v_error" id="v-error" value="Required" />
+            <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+          </fieldset>
+        </form>
+		
+        <div class="response"></div>
+      </div>
+      <br />
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-box">
+        <h4>Adresă</h4>
+        <p>Liceul Academiei de Științe, Chișinău, Sprîncenoaia 1<br>
+          <br>
+          <span class="lite1">Fax:</span> +373 247 38 317 <br>
+          <span class="lite1">Tel:</span> +373 247 38 317<br>
+          <span class="lite1">E-mail:</span> cioroi.ecaterina@gmail.com</p>
+      </div>
+      <div class="sidebar-box">
+        <h4>Unde mă aflu?</h4>
+        <iframe width="265" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;ll=46.9998691,28.8581765&amp;spn=0.012963,0.022659&amp;z=14&amp;output=embed"></iframe>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+      <div class="footer-top"></div>
+      <!-- Divider -->
+     <div class="one-fourth">
+        <h2>Date importante</h2>
+        <ul class="latest-posts">
+          <li><span class="date"><em class="day">12</em><em class="month">Oct</em></span> <a href="#">Ziua mea de naștere&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><p></p>
+          <li><span class="date"><em class="day">1</em><em class="month">Dec</em></span> <a href="http://ro.wikipedia.org/wiki/Unirea_Transilvaniei_cu_Rom%C3%A2nia">Marea Unire&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+          <li><span class="date"><em class="day">31</em><em class="month">Aug</em></span> <a href="#">Ziua Limbii Române&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+          <li><span class="date"><em class="day">27</em><em class="month">Aug</em></span> <a href="#">Ziua Independenței&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        </ul>
+      </div>
+      
+      <div class="one-fourth">
+        <h3>Site-uri utile</h3>
+        <ul class="one-fourth">
+          <li><a href="http://liceu.asm.md"><h2>Liceul AȘM</h2></a></li>
+          <li><a href="http://www.aee.edu.md/"><h2>Ministerul Educației</h2></a></li>
+          <li><a href="http://www.infoarena.ro/"><h2>Infoarena</h2></a></li>
+          
+        </ul>
+      </div>
+      
+      
+      
+      
+      <div class="one-fourth">
+        <h3>Facebook</h3>
+        <div id="twitter-wrapper">
+          <div id="twitter"></div>
+          <span class="username"><a href="https://www.facebook.com/cioroi.ecaterina">→ Umrarește-mă pe facebook</a></span> </div>
+      </div>
+      <div class="one-fourth last">
+        <h3>Trimite-mi un mesaj</h3>
+        <!-- Form -->
+        <div class="form-container">
+          <form class="forms" action="contact/form-handler.php" method="post">
+            <fieldset>
+              <ol>
+                <li class="form-row text-input-row">
+                  <label>Nume*</label>
+                  <input type="text" name="name" value="" class="text-input required" title="" />
+                </li>
+                <li class="form-row text-input-row">
+                  <label>Email*</label>
+                  <input type="text" name="email" value="" class="text-input required email" title="" />
+                </li>
+                <li class="form-row text-area-row">
+                  <textarea name="message" class="text-area required"></textarea>
+                </li>
+                <li class="form-row hidden-row">
+                  <input type="hidden" name="hidden" value="" />
+                </li>
+                <li class="button-row">
+                  <input type="submit" value="Trimite" name="submit" class="btn-submit" />
+                </li>
+              </ol>
+              <input type="hidden" name="v_error" id="v-error" value="Required" />
+              <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+            </fieldset>
+          </form>
+          <div class="response"></div>
+        </div>
+        <!-- End Form --> 
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!-- End Container -->
+  
+  <div id="copyright" class="opacity">
+    <p>© 2015 Cioroi Ecaterina. All Right Reserved.</p>
+  </div>
+</div>
+<!-- End Wrapper --> 
+
+<script type="text/javascript" src="style/js/scripts.js"></script>
+</body>
+</html>
